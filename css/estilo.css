@@ -1,0 +1,99 @@
+body{
+    background: url(../images/bg.png);
+    
+}
+
+#pagina{
+    width: 950px;
+    min-height: 560px;
+    height: auto;
+    margin: 0px auto;
+    background-color: #b5acac;
+}
+nav{
+    background-color: hsl(182, 3%, 10%);
+    color: azure;
+    height: 40px;
+    font-family: monospace;
+    font-size: 15px;
+    
+}
+nav ul{
+    list-style: none;
+    margin: 0px 0px 0px -40px;
+}
+nav ul li{
+    padding: 3px;
+    background-color: hsl(182, 3%, 10%);
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    color: darkorange;
+    
+}
+
+nav ul li:hover, .btn-buscar:hover {
+    background-color: firebrick;
+    color:black;
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+#logo{
+    
+    width: 400px;
+    height: 139px;
+    background: url(../images/logo.png);
+        
+}
+.btn-buscar{
+    position: absolute;
+    margin: 0px 0px 0px 174px;
+    background-color: hsl(182, 3%, 10%);
+    width: 35px;
+    height: 29px;
+    line-height: 35px;
+    text-align: center;
+    color: darkorange;
+    cursor: pointer;
+ 
+    
+}
+.inp-buscar{
+    border: 0px;
+    position: absolute;
+    height: 27px;
+    padding-left: 4px;
+    background-color: rgba(121, 115, 115, 0.12);
+    color: darkorange;
+    
+}
+
+#buscador{
+    position: absolute;
+    margin: -35px 0px 0px 738px;
+}
+.inp-buscar:hover{
+    background-color: hsla(182, 3%, 31%, 0.22);
+}
+
+section{
+    background-color: rgba(186, 8, 8, 0.61);
+    padding: 5px;
+}
+aside{
+    background-color: rgb(41, 39, 39);
+    padding: 5px;
+    width: 150px;
+    height: 371px;
+    float: left;
+    margin-right: 5px;
+}
+section.separador{
+    background-color: rgba(154, 6, 6, 0.88);
+    height: 3px;
+}
+
+
+ 
